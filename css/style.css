@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  background: #111;
+}
+
+button {
+  border: 1px #333 solid;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 2vw;
+  height: 2vw;
+  background: white;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.canvas {
+  margin-left: 16%;
+  width: 64%;
+}
+.canvas button {
+  cursor: url('https://svgshare.com/i/7Sc.svg'), auto;
+}
+.palette {
+  width: 10%;
+}
+.palette button {
+  cursor: url('https://svgshare.com/i/7ST.svg'), auto;
+  width: 4vw;
+  height: 4vw;
+}
+.palette button:first-child {
+  width: 8vw;
+}
+.palette button#save {
+  width: 8vw;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .75em;
+}
+.palette button#default {
+  width: 8vw;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+/* === COLORES === */
+.red {
+  background: #ef1c25;
+}
+.redViolet {
+  background: #b82568;
+}
+.violet {
+  background: #672d90;
+}
+.violetBlue {
+  background: #524fa2;
+}
+.blue {
+  background: #0077b3;
+}
+.blueGreen {
+  background: #6cc8bf;
+}
+.green {
+  background: #01a650;
+}
+.greenYellow {
+  background: #aed137;
+}
+.yellow {
+  background: #fff200;
+}
+.yellowOrange {
+  background: #feb813;
+}
+.orange {
+  background: #f68b1f;
+}
+.orangeRed {
+  background: #f15a22;
+}
